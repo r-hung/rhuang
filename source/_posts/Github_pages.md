@@ -49,7 +49,7 @@ title: Github pages 使用
 2， 本地clone仓库：
 
 ```shell
-git clone https://github.com/username/username.github.io
+git clone https://github.com/username/username.github.io.git
 ```
 
 3， 进入文件夹，新建index.html
@@ -83,6 +83,7 @@ yourname.github.io形式的库，会解析master分支；而别的名字的库�
 
 ```shell
 wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh  
+# remember add  export NVM_DIR="$HOME/.nvm" to your .bashrc
 # then restart terminal 
 nvm install stable
 npm install -g hexo-cli 
